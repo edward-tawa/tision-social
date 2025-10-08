@@ -6,7 +6,7 @@ import {
     getInterests
 } from "@/app/data/profile/interest/api";
 
-import { InterestInterface } from "@/app/data/profile/interest/interestSlice";
+import { InterestInterface } from "@/app/data/profile/interest/types";
 
 
 export const getInterestService = async (interestId: number) => {

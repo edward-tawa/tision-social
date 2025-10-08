@@ -21,8 +21,8 @@ const CreateConnection: React.FC<CreateConnectionProps> = ({ receiver, sender })
         try {
             const connectionRequest: ConnectionRequest = {
                 id: Date.now(),
-                senderId: sender.id,
-                receiverId: receiver.id,
+                sender: sender.id,
+                receiver: receiver.id,
                 senderName: sender.username,
                 receiverName: receiver.username,
                 status: "pending",

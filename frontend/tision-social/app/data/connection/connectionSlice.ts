@@ -25,8 +25,10 @@ interface ConnectionRequests {
 
 const initialConnection: ConnectionRequest = {
     id: Date.now(),
-    senderId: Date.now(),
-    receiverId: Date.now(),
+    sender: Date.now(),
+    receiver: Date.now(),
+    senderName: '',
+    receiverName: '',
     status: "pending",
     timestamp: "",
 }

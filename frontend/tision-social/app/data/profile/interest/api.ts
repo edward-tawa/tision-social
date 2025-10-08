@@ -1,6 +1,6 @@
 //api.ts
 import api from "@/app/data/utils/axios";
-import { InterestInterface } from "@/app/data/profile/interest/interestSlice";
+import { InterestInterface } from "@/app/data/profile/interest/types";
 import { interestEndPoints } from "@/app/data/profile/interest/endpoints";
 
 export const createInterest = async (interest: InterestInterface): Promise<InterestInterface> => {

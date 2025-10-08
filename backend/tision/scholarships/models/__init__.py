@@ -1,0 +1,1 @@
+from tision.scholarships.models.scholarship_model import Scholarship

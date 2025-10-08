@@ -1,6 +1,6 @@
 //services.ts
 import { getBio, createBio, updateBio, deleteBio } from '@/app/data/profile/bio/api';
-import { BioInterface } from "@/app/data/profile/bio/bioSlice";
+import { BioInterface } from "@/app/data/profile/bio/types";
 
 
 export const getBioService = async (userId: number) => {

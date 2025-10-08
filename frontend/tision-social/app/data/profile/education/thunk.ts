@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { getEducationService, createEducationService, getEducationsService, updateEducationService, deleteEducationService } from "@/app/data/profile/education/services";
-import { EducationInterface } from "@/app/data/profile/education/educationSlice";
+import { EducationInterface } from "@/app/data/profile/education/types";
 
 
 

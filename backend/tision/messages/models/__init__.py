@@ -1,0 +1,1 @@
+from tision.messages.models.message_model import Message

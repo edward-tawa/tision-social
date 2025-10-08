@@ -1,6 +1,6 @@
 //api.ts
 import api from "@/app/data/utils/axios";
-import { ProjectInterface } from "@/app/data/profile/project/projectSlice";
+import { ProjectInterface } from "@/app/data/profile/project/types";
 import { projectEndPoints } from "@/app/data/profile/project/endpoints";
 
 export const createProject = async (Project: ProjectInterface): Promise<ProjectInterface> => {

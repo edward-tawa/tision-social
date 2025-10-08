@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { getProjectService, createProjectService, getProjectsService, updateProjectService, deleteProjectService } from "@/app/data/profile/project/services";
-import { ProjectInterface } from "@/app/data/profile/project/projectSlice";
+import { ProjectInterface } from "@/app/data/profile/project/types";
 
 
 

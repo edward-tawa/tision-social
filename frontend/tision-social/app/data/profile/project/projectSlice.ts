@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { ProjectInterface } from "@/app/data/profile/project/types";
 import {
     getProjectsThunk,
     getProjectThunk,
@@ -7,17 +8,7 @@ import {
     deleteProjectThunk,
 } from '@/app/data/profile/project/thunk';
 
-export interface ProjectInterface {
-    id: number;
-    userId: number;
-    title: string;
-    description: string;
-    role: string;
-    repolInk: string;
-    startDate: string;
-    endDate: string;
-    isOngoing: boolean;
-}
+
 
 
 

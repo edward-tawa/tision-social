@@ -1,6 +1,6 @@
 import { getExperience, createExperience, updateExperience, deleteExperience, getExperiences } from "@/app/data/profile/experience/api";
 
-import { ExperienceInterface } from "@/app/data/profile/experience/experienceSlice";
+import { ExperienceInterface } from "@/app/data/profile/experience/types";
 
 
 

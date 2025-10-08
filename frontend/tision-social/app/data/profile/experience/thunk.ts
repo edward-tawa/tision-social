@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { getExperienceService, createExperienceService, getExperiencesService, updateExperienceService, deleteExperienceService } from "@/app/data/profile/experience/services";
-import { ExperienceInterface } from "@/app/data/profile/experience/experienceSlice";
+import { ExperienceInterface } from "@/app/data/profile/experience/types";
 
 
 

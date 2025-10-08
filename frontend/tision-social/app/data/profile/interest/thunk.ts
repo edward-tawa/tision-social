@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { getInterestService, createInterestService, getInterestsService, updateInterestService, deleteInterestService } from "@/app/data/profile/interest/services";
-import { InterestInterface } from "@/app/data/profile/interest/interestSlice";
+import { InterestInterface } from "@/app/data/profile/interest/types";
 
 
 

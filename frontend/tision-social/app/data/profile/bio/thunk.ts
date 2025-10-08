@@ -1,6 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { getBioService, createBioService, updateBioService, deleteBioService } from "@/app/data/profile/bio/services";
-import { BioInterface } from "./bioSlice";
+import { BioInterface } from "@/app/data/profile/bio/types";
 
 
 export const getBioThunk = createAsyncThunk(

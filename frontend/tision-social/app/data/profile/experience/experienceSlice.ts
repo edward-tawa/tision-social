@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { ExperienceInterface } from "@/app/data/profile/experience/types";
 import {
     getExperienceThunk,
     getExperiencesThunk,
@@ -9,17 +10,6 @@ import {
     from '@/app/data/profile/experience/thunk';
 
 
-export interface ExperienceInterface {
-    id: number,
-    userId: number,
-    company: string,
-    role: string,
-    location: string,
-    startDate: string,
-    endDate: string,
-    description: string[],
-    technologies: string[],
-}
 
 
 interface NormalizedExperience {

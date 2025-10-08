@@ -1,16 +1,10 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { getBioThunk, createBioThunk, updateBioThunk, deleteBioThunk } from "@/app/data/profile/bio/thunk";
+import { BioInterface } from "@/app/data/profile/bio/types";
 
-export interface BioInterface {
-    id: number;
-    userId: number
-    name: string,
-    location: string,
-    email: string,
-    description: string,
-    website: string,
-    employmentStatus: string[]
-}
+
+
+
 interface BioState {
     bio: BioInterface,
     bios: BioInterface[],

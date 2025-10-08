@@ -1,6 +1,6 @@
 //bio api.ts
 import api from "@/app/data/utils/axios";
-import { BioInterface } from "@/app/data/profile/bio/bioSlice";
+import { BioInterface } from "@/app/data/profile/bio/types";
 import { bioEndPoints } from "@/app/data/profile/bio/endpoints";
 
 

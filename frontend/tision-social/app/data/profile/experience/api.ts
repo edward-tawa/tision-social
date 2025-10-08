@@ -1,6 +1,6 @@
 //api.ts
 import api from "@/app/data/utils/axios";
-import { ExperienceInterface } from "@/app/data/profile/experience/experienceSlice";
+import { ExperienceInterface } from "@/app/data/profile/experience/types";
 import { experienceEndPoints } from "@/app/data/profile/experience/endpoints";
 
 export const createExperience = async (experience: ExperienceInterface): Promise<ExperienceInterface> => {

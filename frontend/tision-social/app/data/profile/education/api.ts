@@ -1,6 +1,6 @@
 //api.ts
 import api from "@/app/data/utils/axios";
-import { EducationInterface } from "@/app/data/profile/education/educationSlice";
+import { EducationInterface } from "@/app/data/profile/education/types";
 import { educationEndPoints } from "@/app/data/profile/education/endpoints";
 
 export const createEducation = async (education: EducationInterface): Promise<EducationInterface> => {

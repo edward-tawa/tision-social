@@ -1,6 +1,6 @@
 import { getProject, createProject, updateProject, deleteProject, getProjects } from "@/app/data/profile/project/api";
 
-import { ProjectInterface } from "@/app/data/profile/project/projectSlice";
+import { ProjectInterface } from "@/app/data/profile/project/types";
 
 
 export const getProjectService = async (proId: number) => {

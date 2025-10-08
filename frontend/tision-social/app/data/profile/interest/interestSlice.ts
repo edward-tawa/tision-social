@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { InterestInterface } from "@/app/data/profile/interest/types";
 import {
     getInterestsThunk,
     getInterestThunk,
@@ -7,11 +8,6 @@ import {
     deleteInterestThunk,
 } from '@/app/data/profile/interest/thunk';
 
-export interface InterestInterface {
-    id: number,
-    userId: number,
-    name: string
-}
 
 interface NormalizedInterest {
     byId: Record<number, InterestInterface>,

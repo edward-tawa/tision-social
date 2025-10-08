@@ -1,6 +1,6 @@
 import { getEducation, createEducation, updateEducation, deleteEducation, getEducations } from "@/app/data/profile/education/api";
 
-import { EducationInterface } from "@/app/data/profile/education/educationSlice";
+import { EducationInterface } from "@/app/data/profile/education/types";
 
 
 export const getEducationService = async (exId: number) => {
